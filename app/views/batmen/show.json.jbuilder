@@ -1,0 +1,1 @@
+json.partial! "batmen/batman", batman: @batman

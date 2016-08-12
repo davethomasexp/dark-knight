@@ -1,0 +1,1 @@
+json.array! @batmen, partial: 'batmen/batman', as: :batman

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  backstory: MyText
+  allies: MyString
+  enemies: MyString
+  nemesis: MyString
+
+two:
+  name: MyString
+  backstory: MyText
+  allies: MyString
+  enemies: MyString
+  nemesis: MyString

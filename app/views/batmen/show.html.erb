@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @batman.name %>
+</p>
+
+<p>
+  <strong>Backstory:</strong>
+  <%= @batman.backstory %>
+</p>
+
+<p>
+  <strong>Allies:</strong>
+  <%= @batman.allies %>
+</p>
+
+<p>
+  <strong>Enemies:</strong>
+  <%= @batman.enemies %>
+</p>
+
+<p>
+  <strong>Nemesis:</strong>
+  <%= @batman.nemesis %>
+</p>
+
+<%= link_to 'Edit', edit_batman_path(@batman) %> |
+<%= link_to 'Back', batmen_path %>

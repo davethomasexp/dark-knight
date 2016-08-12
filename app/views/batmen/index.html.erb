@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Batmen</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Backstory</th>
+      <th>Allies</th>
+      <th>Enemies</th>
+      <th>Nemesis</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @batmen.each do |batman| %>
+      <tr>
+        <td><%= batman.name %></td>
+        <td><%= batman.backstory %></td>
+        <td><%= batman.allies %></td>
+        <td><%= batman.enemies %></td>
+        <td><%= batman.nemesis %></td>
+        <td><%= link_to 'Show', batman %></td>
+        <td><%= link_to 'Edit', edit_batman_path(batman) %></td>
+        <td><%= link_to 'Destroy', batman, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Batman', new_batman_path %>

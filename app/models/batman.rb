@@ -1,0 +1,2 @@
+class Batman < ApplicationRecord
+end
