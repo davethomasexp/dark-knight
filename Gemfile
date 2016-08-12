@@ -11,6 +11,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'searchkick', '~> 1.3', '>= 1.3.3'
 gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'trailblazer', '~> 1.1', '>= 1.1.1'
+gem 'devise', '~> 4.2'
 
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
